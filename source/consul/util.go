@@ -3,8 +3,8 @@ package consul
 import (
 	"strings"
 
+	"github.com/dynamicgo/go-config/encoder"
 	"github.com/hashicorp/consul/api"
-	"github.com/micro/go-config/encoder"
 )
 
 func makeMap(e encoder.Encoder, kv api.KVPairs, stripPrefix string) map[string]interface{} {

@@ -4,10 +4,10 @@ import (
 	"errors"
 	"time"
 
+	"github.com/dynamicgo/go-config/encoder"
+	"github.com/dynamicgo/go-config/source"
 	"github.com/hashicorp/consul/api"
 	"github.com/hashicorp/consul/watch"
-	"github.com/micro/go-config/encoder"
-	"github.com/micro/go-config/source"
 )
 
 type watcher struct {

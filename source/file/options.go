@@ -3,7 +3,7 @@ package file
 import (
 	"context"
 
-	"github.com/micro/go-config/source"
+	"github.com/dynamicgo/go-config/source"
 )
 
 type filePathKey struct{}

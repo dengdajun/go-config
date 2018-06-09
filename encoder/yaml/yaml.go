@@ -1,8 +1,8 @@
 package yaml
 
 import (
+	"github.com/dynamicgo/go-config/encoder"
 	"github.com/ghodss/yaml"
-	"github.com/micro/go-config/encoder"
 )
 
 type yamlEncoder struct{}

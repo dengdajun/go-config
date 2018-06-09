@@ -5,8 +5,8 @@ import (
 	"net"
 	"time"
 
+	"github.com/dynamicgo/go-config/source"
 	"github.com/hashicorp/consul/api"
-	"github.com/micro/go-config/source"
 )
 
 // Currently a single consul reader

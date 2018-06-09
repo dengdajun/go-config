@@ -4,11 +4,11 @@ import (
 	"errors"
 	"time"
 
+	"github.com/dynamicgo/go-config/encoder"
+	"github.com/dynamicgo/go-config/encoder/json"
+	"github.com/dynamicgo/go-config/reader"
+	"github.com/dynamicgo/go-config/source"
 	"github.com/imdario/mergo"
-	"github.com/micro/go-config/encoder"
-	"github.com/micro/go-config/encoder/json"
-	"github.com/micro/go-config/reader"
-	"github.com/micro/go-config/source"
 )
 
 type jsonReader struct {

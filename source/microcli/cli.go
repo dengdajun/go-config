@@ -4,9 +4,9 @@ import (
 	"strings"
 	"time"
 
+	"github.com/dynamicgo/cli"
+	"github.com/dynamicgo/go-config/source"
 	"github.com/imdario/mergo"
-	"github.com/micro/cli"
-	"github.com/micro/go-config/source"
 )
 
 type clisrc struct {

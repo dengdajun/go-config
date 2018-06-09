@@ -5,8 +5,8 @@ import (
 	"strings"
 	"time"
 
+	"github.com/dynamicgo/go-config/source"
 	"github.com/imdario/mergo"
-	"github.com/micro/go-config/source"
 )
 
 var (

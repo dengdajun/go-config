@@ -7,8 +7,8 @@ import (
 	"testing"
 	"time"
 
-	"github.com/micro/go-config/source/envvar"
-	"github.com/micro/go-config/source/file"
+	"github.com/dynamicgo/go-config/source/envvar"
+	"github.com/dynamicgo/go-config/source/file"
 )
 
 func createFileForIssue18(t *testing.T, content string) *os.File {

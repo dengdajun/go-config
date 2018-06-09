@@ -3,8 +3,8 @@ package hcl
 import (
 	"encoding/json"
 
+	"github.com/dynamicgo/go-config/encoder"
 	"github.com/hashicorp/hcl"
-	"github.com/micro/go-config/encoder"
 )
 
 type hclEncoder struct{}

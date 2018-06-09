@@ -2,9 +2,10 @@ package microcli
 
 import (
 	"encoding/json"
-	"github.com/micro/cli"
-	"github.com/micro/go-config/source"
 	"testing"
+
+	"github.com/dynamicgo/cli"
+	"github.com/dynamicgo/go-config/source"
 )
 
 func TestClisrc_Read(t *testing.T) {

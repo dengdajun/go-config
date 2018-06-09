@@ -9,9 +9,9 @@ import (
 	"sync"
 	"time"
 
-	"github.com/micro/go-config/reader"
-	"github.com/micro/go-config/reader/json"
-	"github.com/micro/go-config/source"
+	"github.com/dynamicgo/go-config/reader"
+	"github.com/dynamicgo/go-config/reader/json"
+	"github.com/dynamicgo/go-config/source"
 )
 
 type config struct {

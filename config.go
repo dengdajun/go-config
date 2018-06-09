@@ -4,8 +4,8 @@ package config
 import (
 	"context"
 
-	"github.com/micro/go-config/reader"
-	"github.com/micro/go-config/source"
+	"github.com/dynamicgo/go-config/reader"
+	"github.com/dynamicgo/go-config/source"
 )
 
 // Config is an interface abstraction for dynamic configuration

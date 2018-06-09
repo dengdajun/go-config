@@ -1,4 +1,4 @@
-# Config [![GoDoc](https://godoc.org/github.com/micro/go-config?status.svg)](https://godoc.org/github.com/micro/go-config)
+# Config [![GoDoc](https://godoc.org/github.com/dynamicgo/go-config?status.svg)](https://godoc.org/github.com/dynamicgo/go-config)
 
 Go Config is a pluggable dynamic config library
 
@@ -29,15 +29,15 @@ A `Source` is a backend from which config is loaded. Multiple sources can be use
 
 The following sources are supported:
 
-- [configmap](https://github.com/micro/go-config/tree/master/source/configmap) - read from k8s configmap
-- [consul](https://github.com/micro/go-config/tree/master/source/consul) - read from consul
-- [etcd](https://github.com/micro/go-config/tree/master/source/etcd) - read from etcd v3
-- [envvar](https://github.com/micro/go-config/tree/master/source/envvar) - read from environment variables
-- [file](https://github.com/micro/go-config/tree/master/source/file) - read from file
-- [flag](https://github.com/micro/go-config/tree/master/source/flag) - read from flags
-- [grpc](https://github.com/micro/go-config/tree/master/source/grpc) - read from grpc server
-- [memory](https://github.com/micro/go-config/tree/master/source/memory) - read from memory
-- [microcli](https://github.com/micro/go-config/tree/master/source/microcli) - read from micro cli flags
+- [configmap](https://github.com/dynamicgo/go-config/tree/master/source/configmap) - read from k8s configmap
+- [consul](https://github.com/dynamicgo/go-config/tree/master/source/consul) - read from consul
+- [etcd](https://github.com/dynamicgo/go-config/tree/master/source/etcd) - read from etcd v3
+- [envvar](https://github.com/dynamicgo/go-config/tree/master/source/envvar) - read from environment variables
+- [file](https://github.com/dynamicgo/go-config/tree/master/source/file) - read from file
+- [flag](https://github.com/dynamicgo/go-config/tree/master/source/flag) - read from flags
+- [grpc](https://github.com/dynamicgo/go-config/tree/master/source/grpc) - read from grpc server
+- [memory](https://github.com/dynamicgo/go-config/tree/master/source/memory) - read from memory
+- [microcli](https://github.com/dynamicgo/go-config/tree/master/source/microcli) - read from micro cli flags
 
 TODO:
 
@@ -189,7 +189,7 @@ Example json config:
 Create a new config (or just make use of the default instance)
 
 ```go
-import "github.com/micro/go-config"
+import "github.com/dynamicgo/go-config"
 
 conf := config.NewConfig()
 ```
@@ -200,8 +200,8 @@ Load config from a file source. It uses the file extension to determine config f
 
 ```go
 import (
-	"github.com/micro/go-config"
-	"github.com/micro/go-config/source/file"
+	"github.com/dynamicgo/go-config"
+	"github.com/dynamicgo/go-config/source/file"
 )
 
 // Load json config file
